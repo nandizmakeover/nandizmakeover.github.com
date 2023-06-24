@@ -1,80 +1,360 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>W3.CSS Template</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <style>
-            body,
-            h1 {
-                font-family: "Raleway", sans-serif;
-                color: pink;
-            }
-            p {
-                font-family: "Raleway", sans-serif;
-                color: yellow;
-            }
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.8.14, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/nandiz-logo-new-png-96x96.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-            body,
-            html {
-                height: 100%
-            }
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu1 cid-tI8mEpjGrj" once="menu" id="menu1-s">
+    
 
-            .bgimg {
-                background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
-                min-height: 100%;
-                background-position: center;
-                background-size: cover;
-            }
-        </style>
-        <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date("Jun 25, 2023 15:37:25").getTime();
-            
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-            
-              // Get today's date and time
-              var now = new Date().getTime();
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobiri.se">
+                        <img src="assets/images/nandiz-logo-new-png-96x96.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-4" href="https://mobiri.se">Nandiz Makeover</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="index.html">
+                            About us</a></li>
+                    <li class="nav-item"><a class="nav-link link text-secondary display-4" href="page1.html">
+                            Services</a></li>
+                    <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="index.html">Contacts</a>
+                    </li></ul>
                 
-              // Find the distance between now and the count down date
-              var distance = countDownDate - now;
                 
-              // Time calculations for days, hours, minutes and seconds
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-              // Output the result in an element with id="demo"
-              document.getElementById("dl").innerHTML = days + "D: " + hours + "H: "
-              + minutes + "M: " + seconds + "S ";
-                
-              // If the count down is over, write some text 
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("dl").innerHTML = "EXPIRED";
-              }
-            }, 1000);
-            </script>
-    </head>
-<body onload="setInterval()">
-
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-        <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top">COMING SOON!</h1>
-            <hr class="w3-border-grey" style="margin:auto;width:40%">
-            <h1 class="w3-large w3-center">Nandiz Makeover</h1>
-            <h1 class="w3-large w3-center">Days to go!</h1>
-            <p id="dl" class="w3-large w3-center"></p>
+            </div>
         </div>
-        <div class="w3-display-bottomleft w3-padding-large">
-            By Nandiz Makeover
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="header1 cid-tI8mfakXih mbr-parallax-background" id="header1-k">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(250, 250, 250);"></div>
+
+    <div class="align-center container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>A Professional Makeover Artist in Chennai!</strong></h1>
+                
+                <p class="mbr-text mbr-fonts-style display-7">We at nandiz makeover make your <strong>Wedding Day</strong> more special and colorful with our personalized touch of a quality and professional grade makeup at affordable price point!</p>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-warning display-4" href="page1.html#contacts3-w">Book Your Special Day!</a></div>
+            </div>
         </div>
     </div>
+</section>
 
+<section data-bs-version="5.1" class="content1 cid-tI8mfb7qJm" id="content1-l">
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-md-11">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>{Our promise!}</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">We at nandiz makeover are a team of dedicated professionals with a passion to make your wedding moments colorful so we go beyond the possibilities to produce the desired make-up style for you and never settle for the less thus we use only international cosmetic brands which are safer and kind to your skin.</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features4 cid-tI8OYK2UKa" id="features4-10">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>{Our Services}</strong></h4>
+            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5"></h5>
+        </div>
+        <div class="row mt-4">
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/wedding-makeup2-3-815x1087.jpeg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Bridal Makeups</strong></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"></h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">A professional bridal and bride's maid makeups in three different offerings - The Elegant, The Queen &amp; The Princess</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/hair-styling-564x720.jpg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Hair Stylings</strong></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"></h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">A dazzling and adorable hair styling of different variations to suit your face and dressings.<br>
+<br></p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/saree-draping-371x371.jpg" alt="Mobirise Website Builder" title="">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Saree Drapings</strong></h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"></h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">An immaculate saree draping to elevate your gorgeous presence.<br></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery6 mbr-gallery cid-tI8smIESQ1" id="gallery6-t">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center m-0 display-2"><strong>{Our most recent bridal make-ups..}</strong></h3>
+            
+        </div>
+        <div class="row mbr-gallery mt-4">
+            <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tI8RPuH2VQ-modal" data-bs-target="#tI8RPuH2VQ-modal">
+                    <img class="w-100" src="assets/images/wedding-makeup2-694x925.jpg" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ">
+                    <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tI8RPuH2VQ-modal" data-bs-target="#tI8RPuH2VQ-modal">
+                    <img class="w-100" src="assets/images/wedding-makeup2-694x925.jpg" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ">
+                    <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tI8RPuH2VQ-modal" data-bs-target="#tI8RPuH2VQ-modal">
+                    <img class="w-100" src="assets/images/wedding-makeup3-694x925.jpg" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ">
+                    <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tI8RPuH2VQ-modal" data-bs-target="#tI8RPuH2VQ-modal">
+                    <img class="w-100" src="assets/images/wedding-makeup1-694x925.jpg" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ">
+                    <div class="icon-wrapper">
+                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="tI8RPuH2VQ-modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="carousel slide carousel-fade" id="lb-tI8RPuH2VQ" data-ride="carousel" data-bs-ride="carousel" data-interval="3000" data-bs-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/images/wedding-makeup2-694x925.jpg" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/wedding-makeup2-694x925.jpg" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/wedding-makeup3-694x925.jpg" alt="Mobirise Website Builder">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/wedding-makeup1-694x925.jpg" alt="Mobirise Website Builder">
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ"></li>
+                                <li data-slide-to="1" data-bs-slide-to="1" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ"></li>
+                                <li data-slide-to="2" data-bs-slide-to="2" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ"></li>
+                                <li data-slide-to="3" data-bs-slide-to="3" data-target="#lb-tI8RPuH2VQ" data-bs-target="#lb-tI8RPuH2VQ"></li>
+                            </ol>
+                            <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
+                            </a>
+                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-tI8RPuH2VQ">
+                                <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                                <span class="sr-only visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-tI8RPuH2VQ">
+                                <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                                <span class="sr-only visually-hidden">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="team1 cid-tI8soIFUKt" id="team1-u">
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5"><strong>{Our team}</strong></h3>
+                
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="assets/images/myphoto-jpg-815x1226.jpeg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Nandhini Giridharan</strong></h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            <strong>Makeover Artist &amp; CEO</strong><br><strong>(Chennai, Tamil Nadu)</strong></h6>
+                        <p class="card-text mbr-fonts-style align-center display-7"></p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="assets/images/giri-377x460.jpg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Giridharan Ravindran</strong></h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            <strong>MD</strong><br><strong>(Chennai, Tamil Nadu)</strong></h6>
+                        <p class="card-text mbr-fonts-style align-center display-7"></p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="assets/images/mathu5-815x1157.jpg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Mathubala Mathan Prasath</strong></h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            <strong>Digital Marketing Head </strong><br><strong>(London, UK)</strong></h6>
+                        <p class="card-text mbr-fonts-style align-center display-7"></p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="contacts3 map1 cid-tI8sBd6CEU" id="contacts3-w">
+
+    
+
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5">
+                <strong>{Contacts}</strong></h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5"></h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mbrib-mobile2" style="color: rgb(230, 198, 59); fill: rgb(230, 198, 59); font-size: 36px;"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
+                            <strong>Phone</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">91 866 74 32 320</p>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont socicon-mail socicon" style="font-size: 36px; color: rgb(230, 198, 59); fill: rgb(230, 198, 59);"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
+                            <strong>Email</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">nandizmakeover@outlook.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-wrapper col-12 col-md-6">
+                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Chennai, Tamil Nadu" allowfullscreen=""></iframe></div>
+            </div>
+        </div>
+    </div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3041611" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">Created with &#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/web-design-program.html">Website Design Program</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
 </body>
-
 </html>
